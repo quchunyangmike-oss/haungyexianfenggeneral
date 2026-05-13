@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>荒野先锋·少年户外突破成长营</title>
+<meta property="og:title" content="荒野先锋·少年户外突破成长营">
+<meta property="og:description" content="2026暑假 · 深圳龙华 · 7天6夜 · 16人精品小团 · 7月20日出发">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://huangyexianfenggeneral.netlify.app/assets/img09.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="荒野先锋·少年户外突破成长营">
+<meta property="twitter:description" content="2026暑假 · 深圳龙华 · 7天6夜 · 16人精品小团 · 7月20日出发">
+<meta property="twitter:image" content="https://huangyexianfenggeneral.netlify.app/assets/img09.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+SC:wght@700;900&display=swap" rel="stylesheet">
+<style>
+:root{--dark:#0d1a0f;--forest:#1a3320;--fire:#e8631a;--amber:#f0a500;--earth:#c4956a;--khaki:#8b7355;--sand:#d4c4a8;--white:#faf8f4}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--dark);color:var(--sand);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif;overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.reveal{opacity:0;transform:translateY(26px);transition:opacity 0.65s ease,transform 0.65s ease}
+.reveal.visible{opacity:1;transform:translateY(0)}
+@keyframes fadeDown{from{opacity:0;transform:translateY(-18px)}to{opacity:1;transform:translateY(0)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+.open .dtoggle{transform:rotate(180deg)!important}
+.open .dbody{display:block!important}
+.faq-item{border-bottom:1px solid rgba(45,90,61,0.35);}
+.faq-item:last-child{border-bottom:none;}
+.faq-item.faq-open .faq-arrow{transform:rotate(180deg);}
+.faq-item.faq-open .faq-body{display:block!important;}
+.policy-table{width:100%;border-collapse:collapse;margin-top:14px;font-size:12px;}
+.policy-table th{background:rgba(232,99,26,0.2);color:#f0a500;font-weight:700;padding:8px 12px;text-align:left;letter-spacing:1px;border:1px solid rgba(232,99,26,0.2);}
+.policy-table td{padding:9px 12px;color:#d4c4a8;border:1px solid rgba(45,90,61,0.3);line-height:1.6;}
+.policy-table tr:nth-child(even) td{background:rgba(45,90,61,0.12);}
+.qr-hint{font-size:10px;color:#8b7355;letter-spacing:1px;margin-top:8px;display:flex;align-items:center;justify-content:center;gap:5px;}
+#ls{position:fixed;inset:0;background:#0d1a0f;z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;transition:opacity 0.4s ease;}
+#ls.hide{opacity:0;pointer-events:none;}
+.ld-title{font-family:'Noto Serif SC',serif;font-size:22px;font-weight:900;letter-spacing:6px;background:linear-gradient(135deg,#f0a500,#e8631a);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.ld-sub{font-size:11px;color:#8b7355;letter-spacing:3px;}
+.ld-bw{width:200px;height:3px;background:rgba(255,255,255,0.08);overflow:hidden;border-radius:2px;}
+.ld-b{height:100%;background:linear-gradient(90deg,#e8631a,#f0a500);width:0;transition:width 0.12s ease;}
+.ld-pct{font-family:'Bebas Neue',sans-serif;font-size:28px;color:#e8631a;}
+.gimg{width:100%;aspect-ratio:4/3;object-fit:cover;filter:brightness(0.88);display:block;}
+.gimg34{width:100%;aspect-ratio:3/4;object-fit:cover;filter:brightness(0.88);display:block;}
+.scrollrow{display:flex;gap:3px;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;}
+.scrollrow img{width:auto;object-fit:cover;flex-shrink:0;filter:brightness(0.85);display:block;}
+.grid2{display:grid;grid-template-columns:repeat(2,1fr);gap:3px;margin:3px;}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;margin:3px;}
+.sec-title-eyebrow{font-size:10px;letter-spacing:4px;color:#e8631a;font-weight:700;margin-bottom:6px;}
+.sec-title{font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;line-height:1.2;}
+.tag-g{display:inline-block;background:rgba(45,90,61,0.4);border:1px solid rgba(45,90,61,0.6);color:#d4c4a8;font-size:12px;padding:4px 9px;margin:2px 3px 2px 0;}
+.tag-o{display:inline-block;background:rgba(232,99,26,0.15);border:1px solid rgba(232,99,26,0.4);color:#c4956a;font-size:12px;padding:4px 9px;margin:2px 3px 2px 0;}
+.day-row{display:flex;gap:13px;margin-bottom:12px;align-items:flex-start;}
+.day-time{font-size:9px;color:#e8631a;font-weight:700;letter-spacing:2px;white-space:nowrap;padding-top:5px;min-width:28px;}
+.day-card{margin-bottom:14px;border:1px solid rgba(45,90,61,0.4);overflow:hidden;cursor:pointer;}
+.day-head{background:#1a3320;padding:13px 17px;display:flex;align-items:center;justify-content:space-between;}
+.day-num{font-family:'Bebas Neue',sans-serif;font-size:30px;color:#e8631a;line-height:1;}
+.day-date{font-size:10px;color:#8b7355;letter-spacing:2px;}
+.day-name{font-family:'Noto Serif SC',serif;font-size:14px;font-weight:700;color:#faf8f4;margin-top:2px;}
+.day-imgs{display:flex;gap:2px;height:130px;overflow:hidden;}
+.day-imgs img{flex:1;object-fit:cover;filter:brightness(0.78);min-width:0;display:block;}
+.feat-card{background:rgba(13,26,15,0.6);border:1px solid rgba(196,149,106,0.2);border-left:3px solid #e8631a;padding:20px;margin-bottom:14px;position:relative;}
+.feat-num{font-family:'Bebas Neue',sans-serif;font-size:44px;color:rgba(232,99,26,0.18);position:absolute;right:14px;top:6px;line-height:1;}
+.feat-title{font-family:'Noto Serif SC',serif;font-size:17px;font-weight:700;color:#f0a500;margin-bottom:7px;}
+.feat-text{font-size:13px;line-height:1.85;color:#d4c4a8;}
+.dim-card{background:rgba(13,26,15,0.8);border:1px solid rgba(45,90,61,0.4);padding:17px 13px;text-align:center;position:relative;overflow:hidden;}
+.dim-card::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,#e8631a,#f0a500);}
+.dim-icon{font-size:27px;display:block;margin-bottom:8px;}
+.dim-title{font-family:'Noto Serif SC',serif;font-size:14px;font-weight:700;color:#f0a500;margin-bottom:5px;}
+.dim-text{font-size:11px;color:#d4c4a8;line-height:1.7;}
+.section-wrap{max-width:480px;margin:0 auto;}
+.faq-q{display:flex;align-items:center;justify-content:space-between;padding:16px 18px;cursor:pointer;}
+.faq-q-inner{display:flex;align-items:flex-start;gap:12px;}
+.faq-q-num{font-family:'Bebas Neue',sans-serif;font-size:18px;color:#e8631a;flex-shrink:0;line-height:1.4;}
+.faq-q-text{font-size:13px;font-weight:700;color:#faf8f4;line-height:1.6;}
+.faq-arrow{color:#e8631a;font-size:16px;flex-shrink:0;margin-left:10px;transition:transform 0.3s;}
+.faq-body{display:none;padding:0 18px 16px 48px;}
+.faq-body-inner{font-size:13px;color:#d4c4a8;line-height:1.9;border-left:2px solid rgba(232,99,26,0.3);padding-left:14px;}
+.kit-pill{background:rgba(255,255,255,0.05);border:1px solid rgba(196,149,106,0.3);color:#d4c4a8;font-size:12px;padding:7px 14px;letter-spacing:1px;}
+.stat-cell{text-align:center;padding:6px 4px;}
+.stat-num{font-family:'Bebas Neue',sans-serif;font-size:34px;color:#0d1a0f;line-height:1;display:block;}
+.stat-label{font-size:10px;color:rgba(13,26,15,0.7);margin-top:3px;font-weight:700;letter-spacing:1px;}
+.coach-li{font-size:12px;color:#d4c4a8;line-height:2.1;padding-left:14px;position:relative;}
+.coach-li::before{content:"▸";position:absolute;left:0;color:#e8631a;}
+.fee-item{display:flex;align-items:center;gap:9px;font-size:13px;color:#d4c4a8;margin-bottom:9px;}
+.fee-item:last-child{margin-bottom:0;}
+.fee-check{color:#e8631a;font-weight:700;}
+.staff-row{display:flex;align-items:center;gap:12px;background:rgba(45,90,61,0.2);padding:11px 16px;border-left:2px solid #e8631a;}
+.facility{background:rgba(13,26,15,0.6);padding:14px;border-left:2px solid #e8631a;}
+.facility-t{font-family:'Noto Serif SC',serif;font-size:13px;font-weight:700;color:#f0a500;margin-bottom:5px;}
+.facility-d{font-size:11px;color:#d4c4a8;line-height:1.8;}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><symbol id="logo" viewBox="0 0 120 120"><polygon points="60,8 108,30 108,75 60,112 12,75 12,30" fill="none" stroke="#e8631a" stroke-width="2" opacity="0.65"/><polygon points="60,18 98,36 98,72 60,102 22,72 22,36" fill="none" stroke="#f0a500" stroke-width="1" opacity="0.4"/><polygon points="30,78 50,45 60,55 70,38 90,78" fill="#2d5a3d"/><circle cx="70" cy="42" r="8" fill="#f0a500" opacity="0.9"/><circle cx="70" cy="42" r="5" fill="#e8631a"/><text x="60" y="95" text-anchor="middle" font-size="8" fill="#f0a500" font-family="serif">★ ★ ★</text></symbol></svg>
+<div id="ls">
+  <svg width="68" height="68" style="filter:drop-shadow(0 0 16px rgba(232,99,26,0.5))"><use href="#logo"/></svg>
+  <div class="ld-title">荒野先锋</div>
+  <div class="ld-sub">少年户外突破成长营 · 2026</div>
+  <div class="ld-bw"><div class="ld-b" id="lb"></div></div>
+  <div class="ld-pct" id="lp">0%</div>
+</div>
+<div style="background:linear-gradient(135deg,#e8631a,#f0a500);padding:10px 24px;text-align:center;font-size:12px;font-weight:700;color:#0d1a0f;letter-spacing:2px;position:sticky;top:0;z-index:999;">⚡ 早鸟优惠截止6月1日 · 16人精品小团 · 7月20日出发</div>
+<section style="min-height:100vh;background:linear-gradient(180deg,rgba(13,26,15,0.2) 0%,rgba(13,26,15,0.75) 55%,#0d1a0f 100%),linear-gradient(135deg,#0d1a0f,#1a2e1c,#0f1f12);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 24px 80px;position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;display:flex;overflow:hidden;opacity:0.1;">
+    <img src="assets/img01.jpg" style="object-fit:cover;width:33.33%;height:100%;filter:grayscale(60%);" alt="" loading="lazy" decoding="async" fetchpriority="low">
+    <img src="assets/img02.jpg" style="object-fit:cover;width:33.33%;height:100%;filter:grayscale(60%);" alt="" loading="lazy" decoding="async" fetchpriority="low">
+    <img src="assets/img03.jpg" style="object-fit:cover;width:33.33%;height:100%;filter:grayscale(60%);" alt="" loading="lazy" decoding="async" fetchpriority="low">
+  </div>
+  <div style="position:absolute;inset:0;background-image:linear-gradient(rgba(45,90,61,0.07) 1px,transparent 1px),linear-gradient(90deg,rgba(45,90,61,0.07) 1px,transparent 1px);background-size:40px 40px;pointer-events:none;"></div>
+  <div style="position:relative;z-index:2;text-align:center;">
+    <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(232,99,26,0.15);border:1px solid rgba(232,99,26,0.4);color:#e8631a;font-size:11px;font-weight:700;letter-spacing:2px;padding:7px 18px;margin-bottom:28px;animation:fadeDown 0.8s ease both;">◆ 2026夏令营 ◆</div>
+    <div style="width:90px;height:90px;margin:0 auto 22px;filter:drop-shadow(0 0 18px rgba(232,99,26,0.4));animation:fadeDown 0.9s ease 0.1s both;">
+      <svg viewBox="0 0 120 120" style="width:100%;height:100%;"><use href="#logo"/></svg>
+    </div>
+    <span style="font-family:'Noto Serif SC',serif;font-size:clamp(40px,11vw,68px);font-weight:900;line-height:1;letter-spacing:6px;display:block;background:linear-gradient(135deg,#f0a500,#c4956a,#e8631a);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:fadeDown 1s ease 0.2s both;">荒野先锋</span>
+    <span style="font-family:'Noto Serif SC',serif;font-size:clamp(14px,4vw,20px);font-weight:400;color:#d4c4a8;letter-spacing:7px;margin-top:12px;display:block;animation:fadeDown 1s ease 0.3s both;">少年户外突破成长营</span>
+    <div style="display:flex;align-items:center;gap:14px;margin:26px auto;max-width:280px;animation:fadeDown 1s ease 0.35s both;">
+      <div style="flex:1;height:1px;background:linear-gradient(90deg,transparent,#8b7355,transparent);"></div>
+      <span style="color:#e8631a;font-size:16px;">✦</span>
+      <div style="flex:1;height:1px;background:linear-gradient(90deg,transparent,#8b7355,transparent);"></div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:10px;animation:fadeDown 1s ease 0.4s both;">
+      <div class="kit-pill">📍 深圳·龙华</div>
+      <div class="kit-pill">📅 7月20—26日</div>
+      <div class="kit-pill">🎒 7—12岁</div>
+      <div class="kit-pill">🏕️ 7天6夜</div>
+    </div>
+    <div style="margin-top:34px;animation:fadeDown 1s ease 0.5s both;">
+      <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth',block:'start'})" style="display:inline-block;background:linear-gradient(135deg,#e8631a,#f0a500);color:#0d1a0f;font-family:'Noto Serif SC',serif;font-size:17px;font-weight:900;letter-spacing:4px;padding:16px 44px;border:none;cursor:pointer;clip-path:polygon(8px 0%,100% 0%,calc(100% - 8px) 100%,0% 100%);">立即报名</button>
+      <p style="margin-top:10px;font-size:11px;color:#8b7355;letter-spacing:2px;">早鸟价 4380元 · 截止6月1日 · 仅限16人</p>
+    </div>
+  </div>
+</section>
+<div style="background:linear-gradient(135deg,#e8631a,#f0a500);padding:26px 24px;">
+  <div style="display:grid;grid-template-columns:repeat(4,1fr);max-width:480px;margin:0 auto;">
+    <div class="stat-cell" style="border-right:1px solid rgba(13,26,15,0.2);"><span class="stat-num">7</span><div class="stat-label">天 6 夜</div></div>
+    <div class="stat-cell" style="border-right:1px solid rgba(13,26,15,0.2);"><span class="stat-num">16</span><div class="stat-label">精品名额</div></div>
+    <div class="stat-cell" style="border-right:1px solid rgba(13,26,15,0.2);"><span class="stat-num">20+</span><div class="stat-label">拓展项目</div></div>
+    <div class="stat-cell"><span class="stat-num">3</span><div class="stat-label">次授勋仪式</div></div>
+  </div>
+</div>
+<div class="scrollrow"><img src="assets/img04.jpg" class="scrollrow-img" style="height:190px;" alt="" loading="lazy" decoding="async"><img src="assets/img05.jpg" class="scrollrow-img" style="height:190px;" alt="" loading="lazy" decoding="async"><img src="assets/img06.jpg" class="scrollrow-img" style="height:190px;" alt="" loading="lazy" decoding="async"><img src="assets/img07.jpg" class="scrollrow-img" style="height:190px;" alt="" loading="lazy" decoding="async"><img src="assets/img01.jpg" class="scrollrow-img" style="height:190px;" alt="" loading="lazy" decoding="async"><img src="assets/img08.jpg" class="scrollrow-img" style="height:190px;" alt="" loading="lazy" decoding="async"></div>
+<div style="background:#1a3320;padding:64px 20px;position:relative;overflow:hidden;">
+<div style="position:absolute;right:-15px;top:50%;transform:translateY(-50%);font-family:'Bebas Neue',sans-serif;font-size:220px;color:rgba(45,90,61,0.22);pointer-events:none;line-height:1;">16</div>
+<div style="max-width:480px;margin:0 auto;position:relative;z-index:2;">
+<div class="reveal"><div class="sec-title-eyebrow">核心优势</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;line-height:1.2;margin-bottom:20px;">同样的价格<br><span style='color:#e8631a;'>我们只有16个名额</span></h2></div>
+<div class="reveal feat-card"><div class="feat-num">01</div><div class="feat-title">🎯 16人精品小团</div><div class="feat-text">同类营地普遍<strong style='color:#e8631a'>20人成团</strong>，我们严格控制在<strong style='color:#e8631a'>16人</strong>。每个孩子被教练看见的机会更多，成长更扎实。</div></div>
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:3px;margin:14px 0;"><div style="position:relative;overflow:hidden;"><img src="assets/img09.jpg" class="gimg" alt="" loading="lazy" decoding="async"><div style="position:absolute;bottom:7px;left:7px;background:rgba(13,26,15,0.82);border-left:2px solid #e8631a;color:#d4c4a8;font-size:10px;padding:3px 9px;letter-spacing:1px;">丛林穿越</div></div><div style="position:relative;overflow:hidden;"><img src="assets/img10.jpg" class="gimg" alt="" loading="lazy" decoding="async"><div style="position:absolute;bottom:7px;left:7px;background:rgba(13,26,15,0.82);border-left:2px solid #e8631a;color:#d4c4a8;font-size:10px;padding:3px 9px;letter-spacing:1px;">高空挑战</div></div></div>
+<div class="reveal feat-card"><div class="feat-num">02</div><div class="feat-title">🏗️ 真实挑战 不是表演</div><div class="feat-text">建木屋、发火箭、野外炊事……<strong style='color:#e8631a'>每一项都真实发生</strong>，每个成果孩子自己完成，不是老师帮忙收尾。</div></div>
+<div class="reveal feat-card"><div class="feat-num">03</div><div class="feat-title">🏅 三次庄重授勋仪式</div><div class="feat-text">每隔两天一次授勋，<strong style='color:#e8631a'>让孩子亲身感受「我做到了」</strong>。这种正向反馈比任何说教都有力量。</div></div>
+<div class="reveal feat-card"><div class="feat-num">04</div><div class="feat-title">💌 给爸爸妈妈的一封信</div><div class="feat-text">第四天晚上，有一份特别的惊喜在等待孩子。看完之后，他们会提笔，给爸爸妈妈写下一封回信。<strong style='color:#e8631a'>很多孩子的第一封真正的信，从这里开始。</strong></div></div>
+</div></div>
+<div style="background:#1a3320;">
+<div style="position:relative;overflow:hidden;"><img src="assets/img01.jpg" style="max-height:340px;width:100%;object-fit:cover;filter:brightness(0.8);display:block;" alt="" loading="lazy" decoding="async"><div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(13,26,15,0.92));padding:36px 20px 18px;"><h3 style="font-family:'Noto Serif SC',serif;font-size:20px;color:#faf8f4;font-weight:900;">🔥 篝火晚会</h3><p style="font-size:12px;color:#d4c4a8;margin-top:5px;">D5夜晚 · 手牵手围着火光，这一刻属于所有荒野先锋</p></div></div>
+<div class="grid3"><img src="assets/img11.jpg" class="gimg" alt="" loading="lazy" decoding="async"><img src="assets/img12.jpg" class="gimg" alt="" loading="lazy" decoding="async"><img src="assets/img13.jpg" class="gimg" alt="" loading="lazy" decoding="async"></div>
+</div>
+<div style="background:#0d1a0f;"><div style="max-width:480px;margin:0 auto;padding:32px 20px 14px;" class="reveal"><div class="sec-title-eyebrow">D6 · 下午</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;line-height:1.2;margin-bottom:0;">真人 <span style='color:#e8631a'>CS</span> · 战术突破</h2></div><div class="grid2"><img src="assets/img07.jpg" class="gimg" alt="" loading="lazy" decoding="async"><img src="assets/img14.jpg" class="gimg" alt="" loading="lazy" decoding="async"></div>
+<div class="grid3"><img src="assets/img15.jpg" class="gimg34" alt="" loading="lazy" decoding="async"><img src="assets/img16.jpg" class="gimg34" alt="" loading="lazy" decoding="async"><img src="assets/img17.jpg" class="gimg34" alt="" loading="lazy" decoding="async"></div>
+</div>
+<div style="background:#1a3320;"><div style="max-width:480px;margin:0 auto;padding:32px 20px 14px;" class="reveal"><div class="sec-title-eyebrow">D3 · 上午</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;line-height:1.2;margin-bottom:0;">腰旗 <span style='color:#e8631a'>橄榄球</span> · 速度激情</h2></div><div class="scrollrow"><img src="assets/img05.jpg" class="scrollrow-img" style="height:230px;" alt="" loading="lazy" decoding="async"><img src="assets/img18.jpg" class="scrollrow-img" style="height:230px;" alt="" loading="lazy" decoding="async"><img src="assets/img02.jpg" class="scrollrow-img" style="height:230px;" alt="" loading="lazy" decoding="async"><img src="assets/img19.jpg" class="scrollrow-img" style="height:230px;" alt="" loading="lazy" decoding="async"></div>
+</div>
+<div style="background:#0d1a0f;"><div style="max-width:480px;margin:0 auto;padding:32px 20px 14px;" class="reveal"><div class="sec-title-eyebrow">D3 · 下午</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;line-height:1.2;margin-bottom:0;">🚀 科学 <span style='color:#e8631a'>水火箭</span></h2></div><div class="grid2"><img src="assets/img20.jpg" class="gimg" alt="" loading="lazy" decoding="async"><img src="assets/img21.jpg" class="gimg" alt="" loading="lazy" decoding="async"></div>
+<div class="grid2"><img src="assets/img22.jpg" class="gimg" alt="" loading="lazy" decoding="async"><img src="assets/img23.jpg" class="gimg" alt="" loading="lazy" decoding="async"></div>
+</div>
+<div style="background:#1a3320;">
+<div style="max-width:480px;margin:0 auto;padding:32px 20px 14px;" class="reveal">
+  <div class="sec-title-eyebrow">D4 · 全天</div>
+  <h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;line-height:1.2;margin-bottom:10px;">亲手建造<span style='color:#e8631a'>一座木屋</span></h2>
+  <p style="font-size:13px;color:#d4c4a8;line-height:1.85;">从设计到锯木、钻孔、固定……每一块木板都是孩子自己的作品。完工那一刻，没有人需要鼓励他骄傲。</p>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:3px;margin:0 3px;">
+  <img src="assets/img24.jpg" class="gimg" alt="" loading="lazy" decoding="async">
+  <img src="assets/img08.jpg" class="gimg" style="object-position:center top;" alt="" loading="lazy" decoding="async">
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:3px;margin:3px 3px 0;">
+  <img src="assets/img25.jpg" class="gimg" alt="" loading="lazy" decoding="async">
+  <img src="assets/img26.jpg" class="gimg" alt="" loading="lazy" decoding="async">
+</div>
+<div style="position:relative;overflow:hidden;margin-top:3px;">
+  <img src="assets/img27.jpg" style="max-height:360px;width:100%;object-fit:cover;filter:brightness(0.8);display:block;" alt="" loading="lazy" decoding="async">
+  <div style="position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(13,26,15,0.92));padding:36px 20px 18px;">
+    <h3 style="font-family:'Noto Serif SC',serif;font-size:20px;color:#faf8f4;font-weight:900;">「我们建了一座房子」</h3>
+    <p style="font-size:12px;color:#d4c4a8;margin-top:5px;">这是属于荒野先锋的荣耀时刻</p>
+  </div>
+</div>
+</div>
+<div style="background:#0d1a0f;">
+<div style="max-width:480px;margin:0 auto;padding:32px 20px 14px;" class="reveal">
+  <div class="sec-title-eyebrow">D5 · 下午</div>
+  <h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;line-height:1.2;margin-bottom:0;">🏃 斯巴达<span style='color:#e8631a'>障碍赛</span></h2>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:3px;margin:0 3px;">
+  <img src="assets/img28.jpg" class="gimg" alt="" loading="lazy" decoding="async">
+  <img src="assets/img29.jpg" class="gimg" alt="" loading="lazy" decoding="async">
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:3px;margin:3px 3px 0;">
+  <img src="assets/img30.jpg" class="gimg" alt="" loading="lazy" decoding="async">
+  <img src="assets/img31.jpg" class="gimg" alt="" loading="lazy" decoding="async">
+</div>
+</div>
+<div style="background:#1a3320;"><div style="max-width:480px;margin:0 auto;padding:32px 20px 14px;" class="reveal"><div class="sec-title-eyebrow">D1 · 下午</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;line-height:1.2;margin-bottom:0;">冰壶挑战赛 <span style='color:#e8631a'>· 智力对决</span></h2></div><div class="grid3"><img src="assets/img32.jpg" class="gimg" alt="" loading="lazy" decoding="async"><img src="assets/img33.jpg" class="gimg" alt="" loading="lazy" decoding="async"><img src="assets/img34.jpg" class="gimg" alt="" loading="lazy" decoding="async"></div>
+<div style="max-width:480px;margin:0 auto;padding:24px 20px 14px;" class="reveal"><div class="sec-title-eyebrow">D3 · 下午</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;margin-bottom:0;">达芬奇密码 <span style='color:#e8631a'>· 烧脑解谜</span></h2></div><div class="grid3"><img src="assets/img35.jpg" class="gimg34" alt="" loading="lazy" decoding="async"><img src="assets/img36.jpg" class="gimg34" alt="" loading="lazy" decoding="async"><img src="assets/img37.jpg" class="gimg34" alt="" loading="lazy" decoding="async"></div>
+</div>
+<div style="background:#0d1a0f;"><div style="max-width:480px;margin:0 auto;padding:32px 20px 14px;" class="reveal"><div class="sec-title-eyebrow">D6 · 上午</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;line-height:1.2;margin-bottom:0;">绳结学习 <span style='color:#e8631a'>· 罗马炮架</span></h2></div><div class="grid2"><img src="assets/img38.jpg" class="gimg" alt="" loading="lazy" decoding="async"><img src="assets/img39.jpg" class="gimg" alt="" loading="lazy" decoding="async"></div>
+<div style="max-width:480px;margin:0 auto;padding:24px 20px 14px;" class="reveal"><div class="sec-title-eyebrow">D5 · 上午</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;margin-bottom:0;">飞盘挑战赛 <span style='color:#e8631a'>· 魔王大摆锤</span></h2></div><div class="scrollrow"><img src="assets/img40.jpg" class="scrollrow-img" style="height:200px;" alt="" loading="lazy" decoding="async"><img src="assets/img41.jpg" class="scrollrow-img" style="height:200px;" alt="" loading="lazy" decoding="async"><img src="assets/img42.jpg" class="scrollrow-img" style="height:200px;" alt="" loading="lazy" decoding="async"><img src="assets/img43.jpg" class="scrollrow-img" style="height:200px;" alt="" loading="lazy" decoding="async"></div>
+</div>
+<div style="background:#0d1a0f;padding:64px 20px;">
+<div class="section-wrap">
+<div class="reveal"><div class="sec-title-eyebrow">完整行程</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;margin-bottom:20px;">7天<span style='color:#e8631a'>20+</span>个项目</h2></div>
+<div class="day-card" onclick="toggleDay(this)"><div class="day-head"><div style="display:flex;align-items:center;gap:12px;"><div class="day-num">D1</div><div><div class="day-date">7月20日 · 周日</div><div class="day-name">集结出发 · 荒野开幕</div></div></div><div class="dtoggle" style="color:#e8631a;font-size:17px;transition:transform 0.3s;">▼</div></div><div class="dbody" style="display:none;background:rgba(26,51,32,0.3);"><div class="day-imgs"><img src="assets/img34.jpg" alt="" loading="lazy" decoding="async"><img src="assets/img32.jpg" alt="" loading="lazy" decoding="async"><img src="assets/img42.jpg" alt="" loading="lazy" decoding="async"></div><div style="padding:14px 17px;"><div class="day-row"><div class="day-time">上午</div><div><span class="tag-g">入营报到</span><span class="tag-g">分配宿舍</span><span class="tag-g">营规宣导</span></div></div><div class="day-row"><div class="day-time">下午</div><div><span class="tag-o">团队组建</span><span class="tag-o">魔王大摆锤</span><span class="tag-o">冰壶挑战赛</span></div></div><div class="day-row"><div class="day-time">晚上</div><div><span class="tag-g">内务整理与考核</span></div></div></div></div></div>
+<div class="day-card" onclick="toggleDay(this)"><div class="day-head"><div style="display:flex;align-items:center;gap:12px;"><div class="day-num">D2</div><div><div class="day-date">7月21日 · 周一</div><div class="day-name">智力 × 体能双线激活</div></div></div><div class="dtoggle" style="color:#e8631a;font-size:17px;transition:transform 0.3s;">▼</div></div><div class="dbody" style="display:none;background:rgba(26,51,32,0.3);"><div class="day-imgs"><img src="assets/img44.jpg" alt="" loading="lazy" decoding="async"><img src="assets/img45.jpg" alt="" loading="lazy" decoding="async"></div><div style="padding:14px 17px;"><div class="day-row"><div class="day-time">上午</div><div><span class="tag-o">T字之谜</span><span class="tag-g">时间管理课</span></div></div><div class="day-row"><div class="day-time">下午</div><div><span class="tag-o">躲避球</span><span class="tag-o">🍳 野外炊事</span></div></div><div class="day-row"><div class="day-time">晚上</div><div><span class="tag-o">🏅 授勋仪式</span><span class="tag-g">桌游</span></div></div></div></div></div>
+<div class="day-card" onclick="toggleDay(this)"><div class="day-head"><div style="display:flex;align-items:center;gap:12px;"><div class="day-num">D3</div><div><div class="day-date">7月22日 · 周二</div><div class="day-name">冒险 · 解谜 · 科学</div></div></div><div class="dtoggle" style="color:#e8631a;font-size:17px;transition:transform 0.3s;">▼</div></div><div class="dbody" style="display:none;background:rgba(26,51,32,0.3);"><div class="day-imgs"><img src="assets/img02.jpg" alt="" loading="lazy" decoding="async"><img src="assets/img06.jpg" alt="" loading="lazy" decoding="async"><img src="assets/img20.jpg" alt="" loading="lazy" decoding="async"></div><div style="padding:14px 17px;"><div class="day-row"><div class="day-time">上午</div><div><span class="tag-o">腰旗橄榄球</span><span class="tag-o">丛林穿越</span></div></div><div class="day-row"><div class="day-time">下午</div><div><span class="tag-o">达芬奇密码</span><span class="tag-o">🚀 科学水火箭</span></div></div><div class="day-row"><div class="day-time">晚上</div><div><span class="tag-g">🎬 营地电影会</span></div></div></div></div></div>
+<div class="day-card" onclick="toggleDay(this)"><div class="day-head"><div style="display:flex;align-items:center;gap:12px;"><div class="day-num">D4</div><div><div class="day-date">7月23日 · 周三</div><div class="day-name">亲手建造一座木屋</div></div></div><div class="dtoggle" style="color:#e8631a;font-size:17px;transition:transform 0.3s;">▼</div></div><div class="dbody" style="display:none;background:rgba(26,51,32,0.3);"><div class="day-imgs"><img src="assets/img24.jpg" alt="" loading="lazy" decoding="async"><img src="assets/img08.jpg" alt="" loading="lazy" decoding="async"><img src="assets/img27.jpg" alt="" loading="lazy" decoding="async"></div><div style="padding:14px 17px;"><div class="day-row"><div class="day-time">上午</div><div><span class="tag-g">木屋设计课</span><span class="tag-g">基础知识学习</span></div></div><div class="day-row"><div class="day-time">下午</div><div><span class="tag-o">🪓 木屋建造</span></div></div><div class="day-row"><div class="day-time">晚上</div><div><span class="tag-o">🏅 授勋仪式</span><span class="tag-o">💌 给家长的一封信</span></div></div></div></div></div>
+<div class="day-card" onclick="toggleDay(this)"><div class="day-head"><div style="display:flex;align-items:center;gap:12px;"><div class="day-num">D5</div><div><div class="day-date">7月24日 · 周四</div><div class="day-name">寻宝 · 飞盘 · 斯巴达</div></div></div><div class="dtoggle" style="color:#e8631a;font-size:17px;transition:transform 0.3s;">▼</div></div><div class="dbody" style="display:none;background:rgba(26,51,32,0.3);"><div class="day-imgs"><img src="assets/img30.jpg" alt="" loading="lazy" decoding="async"><img src="assets/img28.jpg" alt="" loading="lazy" decoding="async"><img src="assets/img01.jpg" alt="" loading="lazy" decoding="async"></div><div style="padding:14px 17px;"><div class="day-row"><div class="day-time">上午</div><div><span class="tag-o">营地寻宝</span><span class="tag-o">飞盘挑战赛</span></div></div><div class="day-row"><div class="day-time">下午</div><div><span class="tag-o">🏃 斯巴达障碍赛</span></div></div><div class="day-row"><div class="day-time">晚上</div><div><span class="tag-o">🔥 篝火晚会</span></div></div></div></div></div>
+<div class="day-card" onclick="toggleDay(this)"><div class="day-head"><div style="display:flex;align-items:center;gap:12px;"><div class="day-num">D6</div><div><div class="day-date">7月25日 · 周五</div><div class="day-name">绳结 · 真人CS · 黑市</div></div></div><div class="dtoggle" style="color:#e8631a;font-size:17px;transition:transform 0.3s;">▼</div></div><div class="dbody" style="display:none;background:rgba(26,51,32,0.3);"><div class="day-imgs"><img src="assets/img04.jpg" alt="" loading="lazy" decoding="async"><img src="assets/img07.jpg" alt="" loading="lazy" decoding="async"><img src="assets/img14.jpg" alt="" loading="lazy" decoding="async"></div><div style="padding:14px 17px;"><div class="day-row"><div class="day-time">上午</div><div><span class="tag-g">绳结学习</span><span class="tag-o">罗马炮架</span></div></div><div class="day-row"><div class="day-time">下午</div><div><span class="tag-o">🎯 真人CS</span></div></div><div class="day-row"><div class="day-time">晚上</div><div><span class="tag-o">🏅 授勋仪式</span><span class="tag-o">🛒 黑店拍卖会</span></div></div></div></div></div>
+<div class="day-card" onclick="toggleDay(this)"><div class="day-head"><div style="display:flex;align-items:center;gap:12px;"><div class="day-num">D7</div><div><div class="day-date">7月26日 · 周六</div><div class="day-name">荣耀结营 · 先锋归队</div></div></div><div class="dtoggle" style="color:#e8631a;font-size:17px;transition:transform 0.3s;">▼</div></div><div class="dbody" style="display:none;background:rgba(26,51,32,0.3);"><div class="day-imgs"><img src="assets/img27.jpg" alt="" loading="lazy" decoding="async"><img src="assets/img11.jpg" alt="" loading="lazy" decoding="async"></div><div style="padding:14px 17px;"><div class="day-row"><div class="day-time">上午</div><div><span class="tag-o">真人四子棋</span><span class="tag-g">行李收纳考核</span></div></div><div class="day-row"><div class="day-time">下午</div><div><span class="tag-o">🎓 结营仪式</span></div></div></div></div></div>
+</div></div>
+<div style="background:#1a3320;padding:64px 20px;">
+  <div class="section-wrap">
+    <div class="reveal"><div class="sec-title-eyebrow">主教练介绍</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;margin-bottom:20px;">专业背书<br><span style='color:#e8631a'>孩子安全有保障</span></h2></div>
+    <div class="reveal" style="background:rgba(13,26,15,0.7);border:1px solid rgba(196,149,106,0.25);overflow:hidden;margin-bottom:16px;">
+      <img src="assets/img03.jpg" style="width:100%;height:280px;object-fit:cover;object-position:top;filter:brightness(0.9);display:block;" alt="白狼教练" loading="lazy" decoding="async">
+      <div style="padding:20px;">
+        <div style="font-family:'Noto Serif SC',serif;font-size:20px;color:#f0a500;">白狼教练</div>
+        <div style="font-size:11px;color:#e8631a;letter-spacing:2px;margin:4px 0 12px;">本期营地主教练 · 户外拓展专家</div>
+        <ul style="list-style:none;">
+          <li class="coach-li">原第54集团军防空旅退役军人</li>
+          <li class="coach-li">深圳市拓展行业协会认证教练</li>
+          <li class="coach-li">亚洲青少年协会户外教育引导员</li>
+          <li class="coach-li">12年青少年户外拓展经验</li>
+          <li class="coach-li">500+人夏令营总教练执导经验</li>
+        </ul>
+      </div>
+    </div>
+    <!-- 晓晴老师卡片 -->
+    <div class="reveal" style="background:rgba(13,26,15,0.7);border:1px solid rgba(196,149,106,0.25);overflow:hidden;margin-bottom:16px;">
+      <img src="assets/img46.jpg" style="width:100%;height:320px;object-fit:cover;object-position:top center;filter:brightness(0.92);display:block;" alt="晓晴老师" loading="lazy" decoding="async">
+      <div style="padding:20px;">
+        <div style="font-family:'Noto Serif SC',serif;font-size:20px;color:#f0a500;">晓晴老师</div>
+        <div style="font-size:11px;color:#e8631a;letter-spacing:2px;margin:4px 0 0;">本期营地总领队</div>
+      </div>
+    </div>
+    <div class="reveal" style="background:rgba(13,26,15,0.6);border:1px solid rgba(232,99,26,0.25);padding:18px 20px;">
+      <div style="font-family:'Noto Serif SC',serif;font-size:15px;font-weight:700;color:#f0a500;margin-bottom:12px;">📋 师资配比说明</div>
+      <div style="display:flex;flex-direction:column;gap:8px;">
+        <div class="staff-row">
+          <span style="font-size:16px;">🏅</span>
+          <div style="font-size:13px;color:#d4c4a8;">主教练</div>
+        </div>
+        <div class="staff-row">
+          <span style="font-size:16px;">🤝</span>
+          <div style="font-size:13px;color:#d4c4a8;">助理教练</div>
+        </div>
+        <div class="staff-row">
+          <span style="font-size:16px;">💛</span>
+          <div style="font-size:13px;color:#d4c4a8;">女生活老师</div>
+        </div>
+        <div class="staff-row">
+          <span style="font-size:16px;">📸</span>
+          <div style="font-size:13px;color:#d4c4a8;">摄影师</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="background:linear-gradient(180deg,#0d1a0f,#1a3320);padding:64px 20px;max-width:480px;margin:0 auto;">
+<div class="reveal"><div class="sec-title-eyebrow">成长维度</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;margin-bottom:26px;">7天之后<br><span style='color:#e8631a'>他会变得不一样</span></h2></div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;">
+<div class="reveal dim-card"><span class="dim-icon">💪</span><div class="dim-title">体能突破</div><div class="dim-text">斯巴达障碍赛、丛林穿越，每天挑战极限</div></div>
+<div class="reveal dim-card"><span class="dim-icon">🤝</span><div class="dim-title">团队协作</div><div class="dim-text">从组队到建木屋，学会在集体中找到位置</div></div>
+<div class="reveal dim-card"><span class="dim-icon">🧠</span><div class="dim-title">逻辑思维</div><div class="dim-text">T字之谜、达芬奇密码、时间管理课</div></div>
+<div class="reveal dim-card"><span class="dim-icon">🏡</span><div class="dim-title">自理能力</div><div class="dim-text">内务整理考核、行李收纳，从营地开始</div></div>
+<div class="reveal dim-card"><span class="dim-icon">🔥</span><div class="dim-title">抗挫韧性</div><div class="dim-text">真实挑战不轻易成功，失败再来才是成长</div></div>
+<div class="reveal dim-card"><span class="dim-icon">✨</span><div class="dim-title">自信表达</div><div class="dim-text">授勋仪式、篝火晚会，在集体中被看见</div></div>
+</div></div>
+<div id="pricing" style="background:#0d1a0f;padding:64px 20px;">
+  <div class="section-wrap">
+    <div class="reveal"><div class="sec-title-eyebrow">费用说明</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;margin-bottom:26px;">透明定价<br><span style='color:#e8631a'>无任何隐形消费</span></h2></div>
+    <div class="reveal" style="background:#1a3320;border:1px solid rgba(196,149,106,0.3);padding:26px 22px;position:relative;overflow:hidden;">
+      <div style="position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,#e8631a,#f0a500,#e8631a);"></div>
+      <div style="font-size:13px;color:#8b7355;text-decoration:line-through;">原价 ¥4,680</div>
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:66px;color:#e8631a;line-height:1;margin:5px 0;"><span style="font-size:24px;color:#c4956a;">¥</span>4380</div>
+      <div style="display:inline-block;background:#e8631a;color:#0d1a0f;font-size:11px;font-weight:700;padding:3px 12px;letter-spacing:2px;margin-bottom:8px;">⚡ 早鸟限时优惠</div>
+      <div style="display:flex;align-items:center;gap:10px;background:rgba(232,99,26,0.08);border:1px solid rgba(232,99,26,0.25);padding:10px 14px;margin-bottom:20px;">
+        <span style="font-size:16px;">⏰</span>
+        <div><div style="font-size:11px;color:#e8631a;font-weight:700;letter-spacing:1px;">早鸟截止日期</div><div style="font-family:'Bebas Neue',sans-serif;font-size:20px;color:#f0a500;letter-spacing:2px;">2026年 6月 1日</div></div>
+        <div style="margin-left:auto;font-size:11px;color:#8b7355;text-align:right;">截止后恢复<br>原价 ¥4,680</div>
+      </div>
+      <div style="margin-bottom:18px;">
+        <div style="font-family:'Noto Serif SC',serif;font-size:14px;font-weight:700;color:#f0a500;margin-bottom:10px;">费用包含</div>
+        <div style="font-size:12px;color:#d4c4a8;line-height:2;background:rgba(13,26,15,0.4);padding:14px 16px;border-left:2px solid #2d5a3d;">场地费 · 教练费 · 住宿费 · 餐饮费 · 全部活动费用 · 物料费 · 营期保险 · 营服<br><span style="color:#f0a500;font-weight:700;">无任何隐形消费</span></div>
+      </div>
+      <div style="border-top:1px solid rgba(196,149,106,0.2);padding-top:16px;">
+        <div class="fee-item"><span class="fee-check">✓</span>7天6夜营地住宿（独立卫浴 · 空调 · 24H热水）</div>
+        <div class="fee-item"><span class="fee-check">✓</span>全程三餐（自营食堂 · 营养师配置）</div>
+        <div class="fee-item"><span class="fee-check">✓</span>20+拓展活动全部费用及物料</div>
+        <div class="fee-item"><span class="fee-check">✓</span>营服、结营证书及专属勋章</div>
+        <div class="fee-item"><span class="fee-check">✓</span>专业教练 + 助教全程陪伴</div>
+        <div class="fee-item"><span class="fee-check">✓</span>营期保险（含意外险）</div>
+      </div>
+      <div style="background:rgba(232,99,26,0.1);border:1px solid rgba(232,99,26,0.3);padding:13px 17px;margin-top:16px;display:flex;align-items:center;justify-content:space-between;">
+        <div><div style="font-weight:700;color:#f0a500;margin-bottom:3px;">👯 2人以上拼团</div><div style="font-size:11px;color:#8b7355;">每人额外优惠300元</div></div>
+        <div style="font-family:'Bebas Neue',sans-serif;font-size:26px;color:#f0a500;">¥4080<span style="font-size:12px;color:#8b7355;">/人</span></div>
+      </div>
+      <div style="margin-top:20px;border-top:1px solid rgba(196,149,106,0.2);padding-top:18px;">
+        <div style="font-family:'Noto Serif SC',serif;font-size:14px;font-weight:700;color:#f0a500;margin-bottom:10px;">退改政策</div>
+        <table class="policy-table">
+          <tr><th>时间节点</th><th>退款规则</th></tr>
+          <tr><td>开营前 7 天以上</td><td style="color:#4ade80;">✓ 全额退款</td></tr>
+          <tr><td>开营前 7 天以内</td><td style="color:#fbbf24;">扣除报名费 30%</td></tr>
+          <tr><td>开营后</td><td style="color:#f87171;">恕不退款</td></tr>
+        </table>
+      </div>
+      <div style="margin-top:14px;display:flex;align-items:center;gap:9px;background:rgba(232,99,26,0.07);border:1px solid rgba(232,99,26,0.2);padding:10px 13px;">
+        <div style="width:7px;height:7px;background:#e8631a;border-radius:50%;flex-shrink:0;animation:pulse 1.5s infinite;"></div>
+        <div style="font-size:12px;color:#c4956a;letter-spacing:1px;">本期严格限额 16 人 · 满员即止报名</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="background:#1a3320;padding:64px 20px;"><div class="section-wrap"><div class="reveal"><div class="sec-title-eyebrow">常见问题</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;line-height:1.2;margin-bottom:20px;">家长最想知道的<span style='color:#e8631a'>5件事</span></h2></div><div class="reveal" style="background:rgba(13,26,15,0.5);border:1px solid rgba(45,90,61,0.4);overflow:hidden;"><div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><div class="faq-q-inner"><div class="faq-q-num">Q1</div><div class="faq-q-text">入营后如何了解孩子的动态？</div></div><div class="faq-arrow">▼</div></div><div class="faq-body"><div class="faq-body-inner">导师每天会在群内分享活动影像，让家长及时了解孩子动态。营中（第3/4天）也会安排孩子与家长通话，其余时间建议「数字排毒」，减少依赖。</div></div></div>
+<div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><div class="faq-q-inner"><div class="faq-q-num">Q2</div><div class="faq-q-text">家长可以去营地探访孩子吗？</div></div><div class="faq-arrow">▼</div></div><div class="faq-body"><div class="faq-body-inner"><strong style='color:#f0a500'>不建议。</strong>独立是成长的必修课。家长的「退后」能为孩子建立心理韧性留出空间，我们邀您通过云端同步这份成长。</div></div></div>
+<div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><div class="faq-q-inner"><div class="faq-q-num">Q3</div><div class="faq-q-text">孩子可以和好朋友同宿吗？</div></div><div class="faq-arrow">▼</div></div><div class="faq-body"><div class="faq-body-inner"><strong style='color:#f0a500'>随机分组。</strong>离开社交舒适圈是培养「领导力」的开始。我们会通过引导，帮助孩子在陌生环境中建立新的人际连接。</div></div></div>
+<div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><div class="faq-q-inner"><div class="faq-q-num">Q4</div><div class="faq-q-text">可以带手机或电子产品吗？</div></div><div class="faq-arrow">▼</div></div><div class="faq-body"><div class="faq-body-inner"><strong style='color:#f0a500'>统一保管。</strong>入营时交由导师，仅在通话日发放。让孩子暂时放下屏幕，全身心沉浸于自然与社交。</div></div></div>
+<div class="faq-item" onclick="toggleFaq(this)"><div class="faq-q"><div class="faq-q-inner"><div class="faq-q-num">Q5</div><div class="faq-q-text">孩子想带零食入营可以吗？</div></div><div class="faq-arrow">▼</div></div><div class="faq-body"><div class="faq-body-inner"><strong style='color:#f0a500'>不建议。</strong>营地提供全营养餐食。我们希望引导孩子练习「延迟满足」，在集体生活中建立自律的饮食习惯。</div></div></div>
+</div></div></div>
+<div style="background:#0d1a0f;padding:64px 20px;"><div class="section-wrap"><div class="reveal"><div class="sec-title-eyebrow">营地介绍</div><h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;line-height:1.2;margin-bottom:16px;">深圳最大<span style='color:#e8631a'>城市自然营地</span></h2><p style="font-size:13px;color:#d4c4a8;line-height:1.9;margin-bottom:20px;">占地70,000㎡，毗邻高尔夫5A级景区，十公里观澜河绿道。森林覆盖率34%，草坪覆盖率75%以上，专业户外运动设施及装备，全市各区30分钟可达。</p></div><div class="reveal" style="background:#1a3320;border:1px solid rgba(196,149,106,0.2);overflow:hidden;"><img src="assets/img47.jpg" style="width:100%;display:block;filter:brightness(0.93);" alt="源野营地介绍" loading="lazy" decoding="async" fetchpriority="low"><div style="padding:18px 20px;"><div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:4px;"><div class="facility"><div class="facility-t">🏕️ 户外空间</div><div class="facility-d">70,000㎡营地 · 专业球场 · 多元户外装备</div></div><div class="facility"><div class="facility-t">🏠 室内配套</div><div class="facility-d">多功能厅 · 300㎡阳光课室 · 1500㎡活动广场</div></div><div class="facility"><div class="facility-t">🍽️ 健康餐饮</div><div class="facility-d">自营食堂 · 每日鲜蔬 · 营养师精心配置</div></div><div class="facility"><div class="facility-t">🛏️ 住宿保障</div><div class="facility-d">精品公寓120间 · 空调24H · 独立卫浴阳台</div></div></div></div></div></div></div>
+<div id="contact" style="background:#0d1a0f;padding:64px 20px;text-align:center;">
+  <div class="section-wrap">
+    <div class="reveal">
+      <div class="sec-title-eyebrow">立即报名</div>
+      <h2 style="font-family:'Noto Serif SC',serif;font-size:clamp(22px,6vw,34px);font-weight:900;color:#faf8f4;line-height:1.2;margin-bottom:16px;">让孩子的暑假<br><span style='color:#e8631a;'>真实发生</span></h2>
+      <p style="font-size:13px;color:#d4c4a8;line-height:1.9;margin-bottom:16px;">名额有限 · 报满即止</p>
+      <p style="font-size:14px;color:#f0a500;font-weight:700;letter-spacing:1px;margin-bottom:24px;">联系您的专属老师咨询报名</p>
+    </div>
+    <div class="reveal" style="background:rgba(232,99,26,0.08);border:1px solid rgba(232,99,26,0.3);padding:20px;max-width:320px;margin:0 auto;">
+      <div style="font-family:'Bebas Neue',sans-serif;font-size:44px;color:#e8631a;line-height:1;">¥4380<span style="font-size:14px;color:#8b7355;">/人</span></div>
+      <div style="font-size:11px;color:#8b7355;margin-top:4px;">早鸟价 · 截止6月1日</div>
+    </div>
+  </div>
+</div>
+<footer style="background:#080e09;padding:20px;text-align:center;border-top:1px solid rgba(45,90,61,0.3);">
+  <p style="font-size:10px;color:#8b7355;letter-spacing:2px;opacity:0.6;">© 2026 快乐童年 · 荒野先锋少年户外突破成长营</p>
+  <p style="font-size:10px;color:#8b7355;letter-spacing:2px;opacity:0.6;margin-top:5px;">深圳龙华 · 7月20-26日 · 7-12岁</p>
+</footer>
+<script>
+(function(){
+var s=document.getElementById('ls'),b=document.getElementById('lb'),p=document.getElementById('lp'),done=false;
+function hide(){if(done)return;done=true;b.style.width='100%';p.textContent='100%';s.classList.add('hide');setTimeout(function(){s.style.display='none';},300);}
+// progress just for visual feedback, not gating
+var pct=0,t=setInterval(function(){pct=Math.min(pct+12+Math.random()*8,92);b.style.width=pct+'%';p.textContent=Math.round(pct)+'%';},60);
+// hide as soon as DOM is interactive (no waiting for images/fonts)
+function ready(){clearInterval(t);hide();}
+if(document.readyState!=='loading')ready();else document.addEventListener('DOMContentLoaded',ready);
+// hard fail-safe: 1s max
+setTimeout(ready,1000);
+})();
+var obs=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting)x.target.classList.add('visible');});},{threshold:0.08});
+document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
+function toggleDay(el){el.classList.toggle('open');}
+function toggleFaq(el){el.classList.toggle('faq-open');}
+</script>
+</body></html>
